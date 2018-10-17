@@ -1,17 +1,19 @@
 // For-loop functions
 
-function positiveIntSum(/* Give it one input */){
+function positiveIntSum(limit){
 let sum =0; 
 let n = 1000;
 for( let i = 1; i<=n; i++){sum= sum +i;}
+return (sum)
 
 }
 
 
-function additionPatternSum(/* Give it three inputs */){
+function additionPatternSum(start,diff,limit){
 let sum =0;
 let n = 100;
 for(let i=2; i<=n; i=i+2){s= sum+i;}
+return 
 }
 
 
@@ -19,11 +21,11 @@ for(let i=2; i<=n; i=i+2){s= sum+i;}
 
 // While-loop function
 
-function multiplicationPatternSum(/* Give it three inputs */){
-let start;
-let n;
-for(let i= start; i<=n; i+i+diff){sum=sum+1}
-
+function multiplicationPatternSum(start,factor,max){
+let k = 1;
+let sum= 0; 
+let n = 40000;
+while (k<=n);{sum=sum+2*k; k=2*k}
 }
 
 
