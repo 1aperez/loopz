@@ -10,11 +10,12 @@ return (sum)
 
 
 function additionPatternSum(start,diff,limit){
-let sum =0;
-let n = 100;
-for(let i=2; i<=n; i=i+2){s= sum+i;}
-return 
+let sum =start;
+let diff =;
+for(let k=0; k<limit; k++){
+    sum=sum+diff*k
 }
+} 
 
 
 
@@ -24,8 +25,8 @@ return
 function multiplicationPatternSum(start,factor,max){
 let k = 1;
 let sum= 0; 
-let n = 40000;
-while (k<=n);{sum=sum+2*k; k=2*k}
+let max = 10000;
+while (k<=max);{sum=sum+2*k; k=2*k}
 }
 
 
