@@ -1,39 +1,42 @@
 // For-loop functions
 
 function positiveIntSum(limit){
-let sum =0; 
-let n = 1000;
-for( let i = 1; i<=n; i++){sum= sum +i;}
-return (sum)
-
+    let sum = 0;
+    for(let i = 1 ; i <= limit; i=i++){
+            sum = sum + i;
+    }
+    return sum;
 }
 
 
-function additionPatternSum(start,diff,limit){
-let sum =start;
-let diff =;
-for(let k=0; k<limit; k++){
-    sum=sum+diff*k
+function additionPatternSum(start, diff, limit,){
+    for (let i = start; i <= limit;i = i + diff){
+            start = start + i
+    }
+    return start
 }
-} 
 
 
 
 
 // While-loop function
 
-function multiplicationPatternSum(start,factor,max){
-let k = 1;
-let sum= 0; 
-let max = 10000;
-while (k<=max);{sum=sum+2*k; k=2*k}
+function multiplicationPatternSum(start, factor, max,){
+   let sum = start;
+   while (let i = start;  i <= max; i = i + factor) {
+           sum = sum * i;
+        }
+    return sum;   
 }
 
 
 
 
-
 //Later copy paste the checking code below here.
+console.log(positiveIntSum(10))
+console.log(additionPatternSum(10, 1, 100))
+console.log(multiplicationPatternSum(10, 1, 1000))
+
 function check(){
     let smallLimit = 208;
     let mediumLimit = 1024;

@@ -30,23 +30,23 @@ Use the functions that you wrote above to answer the following questions.  To so
 For each questions, type the answer instead of the question-mark (?) once you use the program to solve for it.  You will need to delete the checking code and write your own console.log() statements.
 
 
--  **Q1:**  1 + 2 + 3 + 4 + ... + 1500 =
+-  **Q1:**  1 + 2 + 3 + 4 + ... + 1500 = 
+5000000
 
+-  **Q2:**  1 + 2 + 3 + 4 + ... + 2000000 = 
+6798
 
--  **Q2:**  1 + 2 + 3 + 4 + ... + 2000000 = ?
+-  **Q3:**  -80 + -20 + 40 + 100 + ... (50 times) = 
+1990
 
+-  **Q4:**  4 + 12 + 36 + 108 + ... + (under 50,000) = 
+44000
 
--  **Q3:**  -80 + -20 + 40 + 100 + ... (50 times) = ?
-
-
--  **Q4:**  4 + 12 + 36 + 108 + ... + (under 50,000) = ?
-
-
--  **Q5:**  7 + 14 + 28 + 56 + ... + (under 50,000) = ?
+-  **Q5:**  7 + 14 + 28 + 56 + ... + (under 50,000) = 
 
 
 -  **Q6:**  Which answer was larger, question 2 or question 3?  Why do you think so?
+question 2 because it more repetitive
 
-
--  **Q7:**  2 + -6 + 18 + -54 + 162 + ... (under 1000000)= ?
+-  **Q7:**  2 + -6 + 18 + -54 + 162 + ... (under 1000000)= 
 
